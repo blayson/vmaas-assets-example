@@ -1,0 +1,2616 @@
+[
+  {
+    "products": {
+      "Oracle Java (Restricted Maintenance) (for RHEL Workstation)": {
+        "content_sets": {
+          "rhel-5-workstation-restricted-maintenance-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/5/$releasever/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 5 Workstation - Oracle Java (Restricted Maintenance) Beta (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-5-workstation-restricted-maintenance-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/5/$releasever/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 5 Workstation - Oracle Java (Restricted Maintenance) (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-6-workstation-restricted-maintenance-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/6/$releasever/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 6 Workstation - Oracle Java (Restricted Maintenance) Beta (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Workstation"
+            ]
+          },
+          "rhel-6-workstation-restricted-maintenance-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/6/$releasever/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 6 Workstation - Oracle Java (Restricted Maintenance) (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Workstation"
+            ]
+          },
+          "rhel-7-workstation-restricted-maintenance-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 7 Workstation - Oracle Java (Restricted Maintenance) Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-workstation-restricted-maintenance-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/oracle-java-rm/os",
+            "name": "Red Hat Enterprise Linux 7 Workstation - Oracle Java (Restricted Maintenance) (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Workstation"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 438
+      },
+      "Oracle Java (for RHEL Client)": {
+        "content_sets": {
+          "rhel-5-desktop-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/client/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Desktop - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-5-desktop-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/client/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Desktop - Oracle Java (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-6-desktop-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/client/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Desktop - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Client"
+            ]
+          },
+          "rhel-6-desktop-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/client/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Desktop - Oracle Java (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Client"
+            ]
+          },
+          "rhel-7-desktop-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/client/7/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Desktop - Oracle Java Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-desktop-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/client/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Desktop - Oracle Java (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Client"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 242
+      },
+      "Oracle Java (for RHEL Compute Node)": {
+        "content_sets": {
+          "rhel-6-for-hpc-node-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/computenode/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Compute Node - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6ComputeNode"
+            ]
+          },
+          "rhel-6-for-hpc-node-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/computenode/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Compute Node - Oracle Java (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6ComputeNode"
+            ]
+          },
+          "rhel-7-for-hpc-node-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/computenode/7/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Compute Node - Oracle Java Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-for-hpc-node-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/computenode/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Compute Node - Oracle Java (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7ComputeNode"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 243
+      },
+      "Oracle Java (for RHEL Compute Node) - Extended Update Support": {
+        "content_sets": {
+          "rhel-7-hpc-node-eus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/computenode/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 ComputeNode - Extended Update Support - Oracle Java (RPMs)",
+            "releasever": [
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7ComputeNode"
+            ]
+          },
+          "rhel-hpc-node-6-eus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/computenode/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 EUS Compute Node Oracle Java (RPMs)",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6ComputeNode"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 245
+      },
+      "Oracle Java (for RHEL Server)": {
+        "content_sets": {
+          "rhel-5-server-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/server/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Server - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Server"
+            ]
+          },
+          "rhel-5-server-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Server - Oracle Java (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Server"
+            ]
+          },
+          "rhel-6-server-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/server/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Server - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-6-server-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Server - Oracle Java (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-7-server-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/server/7/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Server - Oracle Java Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Server - Oracle Java (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 240
+      },
+      "Oracle Java (for RHEL Server) - AUS": {
+        "content_sets": {
+          "rhel-5-server-aus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/aus/rhel/server/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Server - AUS - Oracle Java (RPMs)",
+            "releasever": [
+              "5.6",
+              "5.9",
+              "5Server"
+            ]
+          },
+          "rhel-6-server-aus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/aus/rhel/server/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Server - AUS - Oracle Java (RPMs)",
+            "releasever": [
+              "6.2",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 256
+      },
+      "Oracle Java (for RHEL Server) - Extended Update Support": {
+        "content_sets": {
+          "rhel-5-server-eus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Server - Extended Update Support - Oracle Java (RPMs)",
+            "releasever": [
+              "5.9",
+              "5Server"
+            ]
+          },
+          "rhel-6-server-eus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Server - Extended Update Support - Oracle Java (RPMs)",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-7-server-eus-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Server - Extended Update Support - Oracle Java (RPMs)",
+            "releasever": [
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 246
+      },
+      "Oracle Java (for RHEL Workstation)": {
+        "content_sets": {
+          "rhel-5-workstation-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Workstation - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-5-workstation-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/5/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 5 Workstation - Oracle Java (RPMs)",
+            "releasever": [
+              "5.10",
+              "5.11",
+              "5Client"
+            ]
+          },
+          "rhel-6-workstation-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Workstation - Oracle Java Beta (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Workstation"
+            ]
+          },
+          "rhel-6-workstation-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/6/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 6 Workstation - Oracle Java (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Workstation"
+            ]
+          },
+          "rhel-7-workstation-thirdparty-oracle-java-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Workstation - Oracle Java Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-workstation-thirdparty-oracle-java-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/oracle-java/os",
+            "name": "Red Hat Enterprise Linux 7 Workstation - Oracle Java (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Workstation"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 244
+      },
+      "RHEL for SAP (for IBM Power LE) - Update Services for SAP Solutions": {
+        "content_sets": {
+          "rhel-8-for-ppc64le-sap-netweaver-e4s-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/ppc64le/sap/debug",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP NetWeaver - Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-ppc64le-sap-netweaver-e4s-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/ppc64le/sap/os",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP NetWeaver - Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-le-e4s-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/power-le/7/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 7 Server for IBM Power LE) - Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-le-e4s-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/power-le/7/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 7 Server for IBM Power LE) - Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 383
+      },
+      "RHEL for SAP - Extended Update Support": {
+        "content_sets": {
+          "rhel-8-for-x86_64-sap-netweaver-eus-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap/debug",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP NetWeaver - Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-x86_64-sap-netweaver-eus-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap/os",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP NetWeaver - Extended Update Support (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-for-rhel-6-server-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 6 Server) Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-for-rhel-6-server-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 6 Server) Extended Update Support (RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/7/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 7 Server) Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/7/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 7 Server) Extended Update Support (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 323
+      },
+      "RHEL for SAP - Extended Update Support (from RHUI)": {
+        "content_sets": {
+          "rhel-sap-for-rhel-6-server-eus-rhui-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/6/$releasever/x86_64/sap/debug",
+            "name": "RHEL for SAP (for RHEL 6 Server) Extended Update Support (Debug RPMs) from RHUI",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-for-rhel-6-server-eus-rhui-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/6/$releasever/x86_64/sap/os",
+            "name": "RHEL for SAP (for RHEL 6 Server) Extended Update Support (RPMs) from RHUI",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-eus-rhui-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/7/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 7 Server) Extended Update Support (Debug RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-eus-rhui-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/7/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 7 Server) Extended Update Support (RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 375
+      },
+      "RHEL for SAP - Update Services for SAP Solutions": {
+        "content_sets": {
+          "rhel-8-for-x86_64-sap-netweaver-e4s-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/x86_64/sap/debug",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP NetWeaver - Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-x86_64-sap-netweaver-e4s-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/x86_64/sap/os",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP NetWeaver - Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-e4s-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/server/7/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 7 Server) Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-e4s-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/server/7/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 7 Server) Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 388
+      },
+      "RHEL for SAP - Update Services for SAP Solutions from RHUI": {
+        "content_sets": {
+          "rhel-sap-for-rhel-7-server-rhui-e4s-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/rhui/server/7/$releasever/$basearch/sap/debug",
+            "name": "RHEL for SAP (for RHEL 7 Server) Update Services for SAP Solutions (Debug RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-server-rhui-e4s-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/rhui/server/7/$releasever/$basearch/sap/os",
+            "name": "RHEL for SAP (for RHEL 7 Server) Update Services for SAP Solutions (RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 431
+      },
+      "RHEL for SAP Applications for Power BE": {
+        "content_sets": {
+          "rhel-sap-for-rhel-6-for-power-beta-debug-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/power/6/6Server/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (RHEL 6 Server) Beta (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-6-for-power-beta-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/power/6/6Server/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (RHEL 6 Server) Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-6-for-power-debug-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power/6/6Server/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (RHEL 6 Server) (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-6-for-power-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power/6/6Server/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (RHEL 6 Server) (RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-7-for-power-beta-debug-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/power/7/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power Beta (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-7-for-power-beta-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/power/7/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-sap-for-rhel-7-for-power-debug-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power/7/$releasever/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (Debug RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power/7/$releasever/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power (RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 332
+      },
+      "RHEL for SAP Applications for Power BE EUS": {
+        "content_sets": {
+          "rhel-sap-for-rhel-7-for-power-eus-debug-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power/7/$releasever/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-eus-rpms": {
+            "basearch": [
+              "ppc64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power/7/$releasever/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power Extended Update Support (RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 333
+      },
+      "RHEL for SAP Applications for Power LE EUS": {
+        "content_sets": {
+          "rhel-8-for-ppc64le-sap-netweaver-eus-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/ppc64le/sap/debug",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP NetWeaver - Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-ppc64le-sap-netweaver-eus-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/ppc64le/sap/os",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP NetWeaver - Extended Update Support (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-le-eus-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power-le/7/$releasever/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power LE Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-power-le-eus-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power-le/7/$releasever/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for IBM Power LE Extended Update Support (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 335
+      },
+      "RHEL for SAP Applications for System Z EUS": {
+        "content_sets": {
+          "rhel-8-for-s390x-sap-netweaver-eus-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/s390x/sap/debug",
+            "name": "Red Hat Enterprise Linux 8 for IBM z Systems - SAP NetWeaver - Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-s390x-sap-netweaver-eus-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/s390x/sap/os",
+            "name": "Red Hat Enterprise Linux 8 for IBM z Systems - SAP NetWeaver - Extended Update Support (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-system-z-eus-debug-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/system-z/7/$releasever/$basearch/sap/debug",
+            "name": "Red Hat Enterprise Linux for SAP for System Z Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-for-rhel-7-for-system-z-eus-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/system-z/7/$releasever/$basearch/sap/os",
+            "name": "Red Hat Enterprise Linux for SAP for System Z Extended Update Support (RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 337
+      },
+      "RHEL for SAP HANA (for IBM Power LE) - Update Services for SAP Solutions": {
+        "content_sets": {
+          "rhel-8-for-ppc64le-sap-solutions-e4s-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/ppc64le/sap-solutions/debug",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP Solutions - Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-ppc64le-sap-solutions-e4s-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/ppc64le/sap-solutions/os",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP Solutions - Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-for-power-le-e4s-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/power-le/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server for IBM Power LE) Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-for-power-le-e4s-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/power-le/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server for IBM Power LE) Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 385
+      },
+      "RHEL for SAP HANA - Extended Update Support": {
+        "content_sets": {
+          "rhel-6-server-for-sap-hana-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/debug",
+            "name": "Red Hat Enterprise Linux 6 Server for SAP HANA EUS Time-Limited Extension (Debug RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-6-server-for-sap-hana-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/os",
+            "name": "Red Hat Enterprise Linux 6 Server for SAP HANA EUS Time-Limited Extension (RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-8-for-x86_64-sap-solutions-eus-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap-solutions/debug",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-x86_64-sap-solutions-eus-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap-solutions/os",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Extended Update Support (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-ha-for-rhel-6-for-sap-hana-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/highavailability/debug",
+            "name": "Red Hat Enterprise Linux High Availability (for RHEL 6 for SAP HANA) EUS Time-Limited Extension (Debug RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-ha-for-rhel-6-for-sap-hana-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/highavailability/os",
+            "name": "Red Hat Enterprise Linux High Availability (for RHEL 6 for SAP HANA) EUS Time-Limited Extension (RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-6-server-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 6 Server) Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-6-server-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 6 Server) Extended Update Support (RPMs)",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Extended Update Support (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sfs-for-rhel-6-for-sap-hana-eus-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/scalablefilesystem/debug",
+            "name": "Red Hat Enterprise Linux Scalable File System (for RHEL 6 for SAP HANA) EUS Time-Limited Extension (Debug RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sfs-for-rhel-6-for-sap-hana-eus-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/server/6/$releasever/$basearch/eus-ext/scalablefilesystem/os",
+            "name": "Red Hat Enterprise Linux Scalable File System (for RHEL 6 for SAP HANA) EUS Time-Limited Extension (RPMs)",
+            "releasever": [
+              "6.7",
+              "6Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 248
+      },
+      "RHEL for SAP HANA - Extended Update Support (from RHUI)": {
+        "content_sets": {
+          "rhel-sap-hana-for-rhel-6-server-eus-rhui-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/6/$releasever/x86_64/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 6 Server) Extended Update Support (Debug RPMs) from RHUI",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-6-server-eus-rhui-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/6/$releasever/x86_64/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 6 Server) Extended Update Support (RPMs) from RHUI",
+            "releasever": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4",
+              "6.5",
+              "6.6",
+              "6.7",
+              "6Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-eus-rhui-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Extended Update Support (Debug RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-eus-rhui-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/rhui/server/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Extended Update Support (RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 374
+      },
+      "RHEL for SAP HANA - Update Services for SAP Solutions": {
+        "content_sets": {
+          "rhel-8-for-x86_64-sap-solutions-e4s-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/x86_64/sap-solutions/debug",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-x86_64-sap-solutions-e4s-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel8/$releasever/x86_64/sap-solutions/os",
+            "name": "Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-e4s-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/server/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Update Services for SAP Solutions (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-e4s-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/server/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Update Services for SAP Solutions (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 389
+      },
+      "RHEL for SAP HANA - Update Services for SAP Solutions from RHUI": {
+        "content_sets": {
+          "rhel-sap-hana-for-rhel-7-server-rhui-e4s-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/rhui/server/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Update Services for SAP Solutions (Debug RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-server-rhui-e4s-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/e4s/rhel/rhui/server/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 Server) Update Services for SAP Solutions (RPMs) from RHUI",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 432
+      },
+      "RHEL for SAP HANA for Power LE EUS": {
+        "content_sets": {
+          "rhel-8-for-ppc64le-sap-solutions-eus-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/ppc64le/sap-solutions/debug",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP Solutions - Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-8-for-ppc64le-sap-solutions-eus-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel8/$releasever/ppc64le/sap-solutions/os",
+            "name": "Red Hat Enterprise Linux 8 for Power, little endian - SAP Solutions - Extended Update Support (RPMs)",
+            "releasever": [
+              "8",
+              "8.1"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-for-power-le-eus-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power-le/7/$releasever/$basearch/sap-hana/debug",
+            "name": "RHEL for SAP HANA (for RHEL 7 for IBM Power LE) Extended Update Support (Debug RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-sap-hana-for-rhel-7-for-power-le-eus-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/eus/rhel/power-le/7/$releasever/$basearch/sap-hana/os",
+            "name": "RHEL for SAP HANA (for RHEL 7 for IBM Power LE) Extended Update Support (RPMs)",
+            "releasever": [
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 339
+      },
+      "Red Hat 3scale API Management Platform": {
+        "content_sets": {
+          "rhel-7-server-3scale-amp-2-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2/debug",
+            "name": "Red Hat 3scale API Management Platform 2 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2/os",
+            "name": "Red Hat 3scale API Management Platform 2 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.0-beta-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/server/7/$basearch/3scale-amp/2.0/debug",
+            "name": "Red Hat 3scale API Management Platform 2.0 Beta (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.0-beta-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/beta/rhel/server/7/$basearch/3scale-amp/2.0/os",
+            "name": "Red Hat 3scale API Management Platform 2.0 Beta (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.0-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.0/debug",
+            "name": "Red Hat 3scale API Management Platform 2.0 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.0-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.0/os",
+            "name": "Red Hat 3scale API Management Platform 2.0 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.1-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.1/debug",
+            "name": "Red Hat 3scale API Management Platform 2.1 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.1-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.1/os",
+            "name": "Red Hat 3scale API Management Platform 2.1 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.2-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.2/debug",
+            "name": "Red Hat 3scale API Management Platform 2.2 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.2-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.2/os",
+            "name": "Red Hat 3scale API Management Platform 2.2 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.3-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.3/debug",
+            "name": "Red Hat 3scale API Management Platform 2.3 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.3-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.3/os",
+            "name": "Red Hat 3scale API Management Platform 2.3 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.4-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.4/debug",
+            "name": "Red Hat 3scale API Management Platform 2.4 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.4-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.4/os",
+            "name": "Red Hat 3scale API Management Platform 2.4 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.5-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.5/debug",
+            "name": "Red Hat 3scale API Management Platform 2.5 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.5-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.5/os",
+            "name": "Red Hat 3scale API Management Platform 2.5 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.6-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.6/debug",
+            "name": "Red Hat 3scale API Management Platform 2.6 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-3scale-amp-2.6-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/3scale-amp/2.6/os",
+            "name": "Red Hat 3scale API Management Platform 2.6 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-rhamp-1.0-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/rhamp/1.0/debug",
+            "name": "Red Hat 3scale API Management Platform 1.0 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-rhamp-1.0-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/rhamp/1.0/os",
+            "name": "Red Hat 3scale API Management Platform 1.0 (RPMs)",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 351
+      },
+      "Red Hat Ansible Engine": {
+        "content_sets": {
+          "ansible-2-for-rhel-8-aarch64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 aarch64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-aarch64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 aarch64 (RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-ppc64le-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 ppc64le (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-ppc64le-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 ppc64le (RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-s390x-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 s390x (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-s390x-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 s390x (RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-x86_64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 x86_64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2-for-rhel-8-x86_64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 8 x86_64 (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-aarch64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 aarch64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-aarch64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 aarch64 (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-ppc64le-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 ppc64le (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-ppc64le-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 ppc64le (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-s390x-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 s390x (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-s390x-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 s390x (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-x86_64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 x86_64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.8-for-rhel-8-x86_64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 8 x86_64 (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-aarch64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 aarch64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-aarch64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/aarch64/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 aarch64 (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-ppc64le-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 ppc64le (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-ppc64le-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/ppc64le/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 ppc64le (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-s390x-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 s390x (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-s390x-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/s390x/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 s390x (RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-x86_64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 x86_64 (Debug RPMs)",
+            "releasever": []
+          },
+          "ansible-2.9-for-rhel-8-x86_64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 8 x86_64 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-power-9-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 7 Server for IBM POWER9 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-power-9-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 7 Server for IBM POWER9 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-system-z-debug-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 (for RHEL 7 Server for System Z) (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-for-system-z-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 (for RHEL 7 Server for System Z) (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.4/debug",
+            "name": "Red Hat Ansible Engine 2.4 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.4/debug",
+            "name": "Red Hat Ansible Engine 2.4 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.4/os",
+            "name": "Red Hat Ansible Engine 2.4 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.4/os",
+            "name": "Red Hat Ansible Engine 2.4 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.5/debug",
+            "name": "Red Hat Ansible Engine 2.5 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.5/debug",
+            "name": "Red Hat Ansible Engine 2.5 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.5/os",
+            "name": "Red Hat Ansible Engine 2.5 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.5/os",
+            "name": "Red Hat Ansible Engine 2.5 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.6/debug",
+            "name": "Red Hat Ansible Engine 2.6 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-for-power-9-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.6/debug",
+            "name": "Red Hat Ansible Engine 2.6 for RHEL 7 Server for IBM POWER9 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-for-power-9-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.6/os",
+            "name": "Red Hat Ansible Engine 2.6 for RHEL 7 Server for IBM POWER9 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.6/debug",
+            "name": "Red Hat Ansible Engine 2.6 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.6/os",
+            "name": "Red Hat Ansible Engine 2.6 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.6-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.6/os",
+            "name": "Red Hat Ansible Engine 2.6 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.7/debug",
+            "name": "Red Hat Ansible Engine 2.7 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-for-power-9-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.7/debug",
+            "name": "Red Hat Ansible Engine 2.7 for RHEL 7 Server for IBM POWER9 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-for-power-9-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.7/os",
+            "name": "Red Hat Ansible Engine 2.7 for RHEL 7 Server for IBM POWER9 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.7/debug",
+            "name": "Red Hat Ansible Engine 2.7 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.7/os",
+            "name": "Red Hat Ansible Engine 2.7 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.7-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.7/os",
+            "name": "Red Hat Ansible Engine 2.7 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-power-9-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 7 Server for IBM POWER9 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-power-9-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 7 Server for IBM POWER9 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-system-z-debug-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2.8/debug",
+            "name": "Red Hat Ansible Engine 2.8 (for RHEL 7 Server for System Z) (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-for-system-z-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 (for RHEL 7 Server for System Z) (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.8-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.8/os",
+            "name": "Red Hat Ansible Engine 2.8 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 Debug RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-power-9-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 7 Server for IBM POWER9 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-power-9-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel-alt/server/7/7Server/power9/$basearch/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 7 Server for IBM POWER9 (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-power-le-debug-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 7 Server for IBM Power LE (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-power-le-rpms": {
+            "basearch": [
+              "ppc64le"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/power-le/7/7Server/$basearch/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 for RHEL 7 Server for IBM Power LE (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-system-z-debug-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2.9/debug",
+            "name": "Red Hat Ansible Engine 2.9 (for RHEL 7 Server for System Z) (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-for-system-z-rpms": {
+            "basearch": [
+              "s390x"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/system-z/7/7Server/$basearch/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 (for RHEL 7 Server for System Z) (RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.9-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible/2.9/os",
+            "name": "Red Hat Ansible Engine 2.9 RPMs for Red Hat Enterprise Linux 7 Server",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 408
+      },
+      "Red Hat Ansible Engine from RHUI": {
+        "content_sets": {
+          "rhel-7-server-ansible-2-rhui-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2/debug",
+            "name": "Red Hat Ansible Engine 2 Debug RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2-rhui-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2/os",
+            "name": "Red Hat Ansible Engine 2 RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-rhui-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2.4/debug",
+            "name": "Red Hat Ansible Engine 2.4 Debug RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.4-rhui-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2.4/os",
+            "name": "Red Hat Ansible Engine 2.4 RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-rhui-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2.5/debug",
+            "name": "Red Hat Ansible Engine 2.5 Debug RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-2.5-rhui-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/rhui/server/7/7Server/$basearch/ansible/2.5/os",
+            "name": "Red Hat Ansible Engine 2.5 RPMs for Red Hat Enterprise Linux 7 Server from RHUI",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 457
+      },
+      "Red Hat Ansible Tower": {
+        "content_sets": {
+          "rhel-7-server-ansible-tower-3.3-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible-tower/3.3/os",
+            "name": "Ansible Tower 3.3 Text-Only Advisories",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-tower-3.4-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible-tower/3.4/os",
+            "name": "Ansible Tower 3.4 Text-Only Advisories",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-tower-3.5-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible-tower/3.5/os",
+            "name": "Ansible Tower 3.5 Text-Only Advisories",
+            "releasever": []
+          },
+          "rhel-7-server-ansible-tower-3.6-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/ansible-tower/3.6/os",
+            "name": "Ansible Tower 3.6 Text-Only Advisories",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 480
+      },
+      "Red Hat Beta": {
+        "content_sets": {
+          "rhel-client-dts-5-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/client/5/5Client/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 5 Client",
+            "releasever": []
+          },
+          "rhel-client-dts-5-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/client/5/5Client/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 5 Client",
+            "releasever": []
+          },
+          "rhel-client-dts-6-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/client/6/6Client/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 6 Client",
+            "releasever": []
+          },
+          "rhel-client-dts-6-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/client/6/6Client/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 6 Client",
+            "releasever": []
+          },
+          "rhel-server-dts-5-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/server/5/5Server/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 5 Server",
+            "releasever": []
+          },
+          "rhel-server-dts-5-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/server/5/5Server/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 5 Server",
+            "releasever": []
+          },
+          "rhel-server-dts-6-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/server/6/6Server/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 6 Server",
+            "releasever": []
+          },
+          "rhel-server-dts-6-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/server/6/6Server/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 6 Server",
+            "releasever": []
+          },
+          "rhel-workstation-dts-5-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/workstation/5/5Client/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 5 Workstation",
+            "releasever": []
+          },
+          "rhel-workstation-dts-5-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/workstation/5/5Client/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 5 Workstation",
+            "releasever": []
+          },
+          "rhel-workstation-dts-6-rhb-debug-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/workstation/6/6Workstation/$basearch/devtoolset/debug",
+            "name": "Red Hat Developer Toolset RHB Debug RPMs for Red Hat Enterprise Linux 6 Workstation",
+            "releasever": []
+          },
+          "rhel-workstation-dts-6-rhb-rpms": {
+            "basearch": [
+              "i386",
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/rhb/rhel/workstation/6/6Workstation/$basearch/devtoolset/os",
+            "name": "Red Hat Developer Toolset RHB RPMs for Red Hat Enterprise Linux 6 Workstation",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 180
+      },
+      "Red Hat Ceph Storage": {
+        "content_sets": {
+          "rhceph-4-tools-for-rhel-8-x86_64-debug-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/rhceph-tools/4/debug",
+            "name": "Red Hat Ceph Storage Tools 4 for RHEL 8 x86_64 (Debug RPMs)",
+            "releasever": []
+          },
+          "rhceph-4-tools-for-rhel-8-x86_64-rpms": {
+            "basearch": [],
+            "baseurl": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/rhceph-tools/4/os",
+            "name": "Red Hat Ceph Storage Tools 4 for RHEL 8 x86_64 (RPMs)",
+            "releasever": []
+          },
+          "rhel-6-server-rhceph-1.2-installer-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/ceph-installer/1.2/debug",
+            "name": "Red Hat Ceph Storage Installer 1.2 for Red Hat Enterprise Linux 6 Server (Debug RPMs)",
+            "releasever": [
+              "6.10",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-6-server-rhceph-1.2-installer-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/ceph-installer/1.2/os",
+            "name": "Red Hat Ceph Storage Installer 1.2 for Red Hat Enterprise Linux 6 Server (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.2-installer-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-installer/1.2/debug",
+            "name": "Red Hat Ceph Storage Installer 1.2 for Red Hat Enterprise Linux 7 Server (Debug RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.2-installer-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-installer/1.2/os",
+            "name": "Red Hat Ceph Storage Installer 1.2 for Red Hat Enterprise Linux 7 Server (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.3-installer-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-installer/1.3/debug",
+            "name": "Red Hat Ceph Storage Installer 1.3 for Red Hat Enterprise Linux 7 Server (Debug RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.4-installer-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-installer/1.3/os",
+            "name": "Red Hat Ceph Storage Installer 1.3 for Red Hat Enterprise Linux 7 Server (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-3-tools-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/rhceph-tools/3/debug",
+            "name": "Red Hat Ceph Storage Tools 3 for Red Hat Enterprise Linux 7 Server (Debug RPMs)",
+            "releasever": []
+          },
+          "rhel-7-server-rhceph-3-tools-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/rhceph-tools/3/os",
+            "name": "Red Hat Ceph Storage Tools 3 for Red Hat Enterprise Linux 7 Server (RPMs)",
+            "releasever": []
+          }
+        },
+        "redhat_eng_product_id": 281
+      },
+      "Red Hggggrey": {
+        "content_sets": {
+          "rhel-6-server-rhceph-1.5-calamari-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/ceph-calamari/1.2/debug",
+            "name": "Red Hat Ceph Storage Calamari 1.2 for Red Hat Enterprise Linux 6 Server (Debug RPMs)",
+            "releasever": [
+              "6.10",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-6-server-rhceph-1.2-calamari-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/ceph-calamari/1.2/os",
+            "name": "Red Hat Ceph Storage Calamari 1.2 for Red Hat Enterprise Linux 6 Server (RPMs)",
+            "releasever": [
+              "6.10",
+              "6.6",
+              "6.7",
+              "6.8",
+              "6.9",
+              "6Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.2-calamari-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-calamari/1.2/debug",
+            "name": "Red Hat Ceph Storage Calamari 1.2 for Red Hat Enterprise Linux 7 Server (Debug RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.2-calamari-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-calamari/1.2/os",
+            "name": "Red Hat Ceph Storage Calamari 1.2 for Red Hat Enterprise Linux 7 Server (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.3-calamari-debug-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-calamari/1.3/debug",
+            "name": "Red Hat Ceph Storage Calamari 1.3 for Red Hat Enterprise Linux 7 Server (Debug RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7Server"
+            ]
+          },
+          "rhel-7-server-rhceph-1.3-calamari-rpms": {
+            "basearch": [
+              "x86_64"
+            ],
+            "baseurl": "https://cdn.redhat.com/content/dist/rhel/server/7/$releasever/$basearch/ceph-calamari/1.3/os",
+            "name": "Red Hat Ceph Storage Calamari 1.3 for Red Hat Enterprise Linux 7 Server (RPMs)",
+            "releasever": [
+              "7.0",
+              "7.1",
+              "7.2",
+              "7.3",
+              "7.4",
+              "7.5",
+              "7.6",
+              "7.7",
+              "7.8",
+              "7Server"
+            ]
+          }
+        },
+        "redhat_eng_product_id": 285
+      }
+    },
+    "Red Hat Enterprise Linux Server": {
+      "redhat_eng_product_id": 69,
+      "content_sets": {
+        "rhel-7-server-rpms": {
+          "name": "Red Hat Enterprise Linux 7 Server (RPMs)",
+          "baseurl": "http://example.com",
+          "basearch": [
+            "x86_64",
+            "ppc64"
+          ],
+          "releasever": [
+            "7Server",
+            "7.7"
+          ]
+        }
+      }
+    },
+    "Red Hat Enterprise Linux Server 1": {
+      "redhat_eng_product_id": 69,
+      "content_sets": {
+        "rhel-7-server-rpms-1": {
+          "name": "Red Hat Enterprise Linux 7 Server (RPMs)",
+          "baseurl": "http://example.com",
+          "basearch": [
+            "x86_64",
+            "ppc64"
+          ],
+          "releasever": [
+            "7Server",
+            "7.7"
+          ]
+        }
+      }
+    }
+  }
+]
